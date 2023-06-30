@@ -31,7 +31,7 @@ PDX provides a CLI command for creating an agent easily. Use the follwing comman
 pdx create <agent_name>
 ```
 
-View all the available options for this command at [pdx-cli/create](./pdx-cli/create).
+View all the available options for this command at [pdx-cli/create](../pdx-cli/create).
 
 
 ## Notes

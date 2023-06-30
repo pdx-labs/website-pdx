@@ -30,4 +30,4 @@ The following templates are available:
 
 -   `simple` (default) - The simple text completion agent.
 -   `chat` - A chat conversation completion agent.
--   `tree` - An advanced prompt tree based agent template. More about this in the [advanced prompting section](./advanced-prompting).
+-   `tree` - An advanced prompt tree based agent template. More about this in the [advanced prompting section](../getting-started/advanced-prompting).
