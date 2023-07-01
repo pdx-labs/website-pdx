@@ -18,6 +18,17 @@ Let's get started...
 
 Create a folder for where the files for your agent will live. For this guide, we'll call it `sentiment_classification_agent`.
 
+:::tip
+
+PDX provides a CLI command to create a agent with an agent template. Run the following:
+
+```bash
+pdx create sentiment_classification_agent
+```
+
+You can then edit the files inside the folder with the info from this tutorial. For more information on this, check [PDX CLI: create](../pdx-cli/create)
+:::
+
 ## Step 1: Agent Configuration
 
 The first thing we'll need is to configure our agent. We'll do this by creating a `config.yml` file in the root of the agent folder.

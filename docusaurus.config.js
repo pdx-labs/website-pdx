@@ -57,11 +57,10 @@ const config = {
                     sidebarCollapsible: false,
                     editUrl: "https://github.com/pdx-labs/website-pdx",
                 },
-                // blog: {
-                //     showReadingTime: true,
-                //     editUrl: "https://github.com/pdx-labs/website-pdx",
-                // },
-                blog: false,
+                blog: {
+                    showReadingTime: true,
+                    editUrl: "https://github.com/pdx-labs/website-pdx",
+                },
                 theme: {
                     customCss: require.resolve("./src/css/custom.css"),
                 },
@@ -88,7 +87,7 @@ const config = {
                         position: "right",
                         label: "Documentation",
                     },
-                    // { to: "/blog", label: "Blog", position: "right" },
+                    { to: "/blog", label: "Blog", position: "right" },
                     {
                         href: "https://github.com/pdx-labs/pdx",
                         label: "GitHub",
