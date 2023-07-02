@@ -7,13 +7,13 @@ export default function Home() {
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
-            title={`Hello from ${siteConfig.title}`}
-            description="Description will go into a meta tag in <head />"
+            title="PDX • Prompt Engineering and Dev-Ops toolkit"
+            description="Prompt Engineering and Dev-Ops toolkit for applications powered by large language models (LLMs)"
         >
             <header className="container mt-10 flex flex-col items-center text-center">
                 <PDXLogo style={{ height: "50px" }} />
-                <h1 className="hidden">{siteConfig.title}</h1>
-                <h1 className="mt-5">{siteConfig.tagline}</h1>
+                <h1 className="hidden">PDX</h1>
+                <h1 className="mt-5">Prompt Engineering and Dev-Ops toolkit</h1>
                 <h2 className="">
                     A faster way to build and manage applications powered by
                     Language Models

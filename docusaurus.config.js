@@ -59,13 +59,17 @@ const config = {
                     editUrl: "https://github.com/pdx-labs/website-pdx",
                 },
                 blog: {
-                    blogTitle: 'PDX Blog',
-                    blogDescription: 'Blogs of PDX containing tutorials and insights.',
+                    blogTitle: "PDX Blog",
+                    blogDescription:
+                        "Blogs of PDX containing tutorials and insights.",
                     showReadingTime: true,
                     editUrl: "https://github.com/pdx-labs/website-pdx",
                 },
                 theme: {
                     customCss: require.resolve("./src/css/custom.css"),
+                },
+                gtag: {
+                    trackingID: "G-KTJQ86VEGR",
                 },
             }),
         ],
