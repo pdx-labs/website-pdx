@@ -1,6 +1,7 @@
 ---
 slug: create
 title: create
+description: PDX CLI command - create
 sidebar_position: 1
 ---
 

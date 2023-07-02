@@ -1,6 +1,7 @@
 ---
 slug: create-an-agent
 title: Create an Agent
+description: Create an agent with PDX
 sidebar_position: 4
 ---
 

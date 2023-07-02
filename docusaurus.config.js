@@ -7,7 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: "PDX",
-    tagline: "Prompt Engineering and Dev-Ops toolkit",
+    tagline:
+        "Prompt Engineering and Dev-Ops toolkit for applications powered by language models (LLMs)",
     favicon: "img/favicon.png",
 
     // Set the production url of your site here
@@ -58,6 +59,8 @@ const config = {
                     editUrl: "https://github.com/pdx-labs/website-pdx",
                 },
                 blog: {
+                    blogTitle: 'PDX Blog',
+                    blogDescription: 'Blogs of PDX containing tutorials and insights.',
                     showReadingTime: true,
                     editUrl: "https://github.com/pdx-labs/website-pdx",
                 },
@@ -71,8 +74,7 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
-            // Replace with your project's social card
-            // image: "img/social-card.jpg",
+            image: "img/socialcard.png",
             navbar: {
                 // title: "P D X",
                 logo: {

@@ -1,6 +1,7 @@
 ---
 slug: installation
 title: Installation
+description: PDX installation
 sidebar_position: 2
 ---
 

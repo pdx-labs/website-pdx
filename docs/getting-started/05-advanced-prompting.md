@@ -1,6 +1,7 @@
 ---
 slug: advanced-prompting
 title: Advanced prompting
+description: Advanced prompting and usage with PDX
 sidebar_position: 5
 ---
 

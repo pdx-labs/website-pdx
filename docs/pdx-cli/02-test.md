@@ -1,6 +1,7 @@
 ---
 slug: test
 title: test
+description: PDX CLI command - test
 sidebar_position: 2
 ---
 

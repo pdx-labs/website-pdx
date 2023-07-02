@@ -1,6 +1,7 @@
 ---
 slug: main-concepts
 title: Main concepts
+description: Understanding PDX
 sidebar_position: 3
 ---
 

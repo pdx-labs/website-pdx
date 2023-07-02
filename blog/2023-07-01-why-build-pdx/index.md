@@ -1,8 +1,10 @@
 ---
 slug: why-build-pdx
 title: Why build PDX?
-authors: krishadi
+description: A framework for building and managing applications powered by Large Language Models LLMs
+keywords: [llm, apps]
 tags: [llm, apps]
+authors: krishadi
 ---
 
 # So, why build PDX?
@@ -67,3 +69,5 @@ This provides the ease of logging into any of the analytics tools.
 ## Concluding thoughts
 
 This is mental model I've used for the projects I've worked on. One might say this a highly opinionated way of building interfaces to language models. Yes, it is and I hope it works for your use-case as well.
+
+![PDX](./pdx_info.png)

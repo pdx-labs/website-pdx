@@ -1,6 +1,7 @@
 ---
 slug: introduction
 title: Introduction
+description: What is PDX?
 sidebar_position: 1
 ---
 
