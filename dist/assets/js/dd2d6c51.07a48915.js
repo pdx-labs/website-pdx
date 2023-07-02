@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite_pdx=self.webpackChunkwebsite_pdx||[]).push([[868],{7196:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/apps","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blogs of PDX containing tutorials and insights.","blogTitle":"PDX Blog"}')}}]);
