@@ -46,6 +46,18 @@ const config = {
                 },
             };
         },
+        [
+            "@docusaurus/plugin-client-redirects",
+            {
+                redirects: [
+                    // /docs/oldDoc -> /docs/newDoc
+                    {
+                        to: "/docs/getting-started/introduction",
+                        from: "/docs",
+                    },
+                ],
+            },
+        ],
     ],
 
     presets: [

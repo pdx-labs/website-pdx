@@ -26,7 +26,7 @@ Before I start preaching about PDX, let me start with what the initial requireme
 
 ## What is [PDX](https://github.com/pdx-labs/pdx)?
 
-[PDX](https://github.com/pdx-labs/pdx) is a framework for prompt engineering and dev-ops toolkit. At the core, it provides a mental-model on how to build and manage agents. An agent is an interface to the language models, which is a collection of prompts and/or prompt templates with information that is used as input to the Language Models.
+[PDX](https://github.com/pdx-labs/pdx) is a framework for prompt engineering and dev-ops toolkit. At the core, it provides a mental-model on how to build and manage agents. An agent is a collection of prompts and/or prompt templates with information that is used to interact with the Language Models.
 
 > Disambiguation: Some frameworks use the word Agent to describe an autonomous agent that performs a set of actions with tools by interacting with the LLMs.
 
