@@ -354,3 +354,23 @@ article
     > div.admonitionContent_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module {
     font-size: 90%;
 }
+
+/* div[id="__docusaurus_skipToContent_fallback"] > div {
+    max-width: 700px !important;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+main > article[itemprop="blogPost"] {
+    max-width: 600px !important;
+    /* margin-right: auto;
+    margin-left: auto; */
+}
+
+main > article[itemprop="blogPost"] > header > h1 {
+    font-size: calc(var(--ifm-h-font-size) * 1.2);
+}
+
+main > article > div[id="__blog-post-container"] {
+    margin-top: 30px;
+}

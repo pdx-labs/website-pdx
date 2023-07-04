@@ -76,9 +76,9 @@ What needs to be specified is:
     -   `id`: The name of the model. Find a list of the supported Language Models [here](#supported-language-models). The API key for the model is take from the environment variables. The name of the environement variable to be used for each of provider is also mentioned in the [table](#supported-language-models).
 -   `prompt`: The templates of the prompts to be used for the agent that are present in the `/templates` folder. The `prompt` variable could contain a list of prompt templates.
     -   `template`: The path to the prompt template file. This is the simplest use of prompt template.
-    -   `system`: This is a template with a `system` role attached to it. When using an OpenAI chat model (for example: gpt-3.5), this will be the system prompt, when using other models it will assume a `user` or `Human` role. Only one system prompt is allwed per agent. When using a text model, this will be converted to a regular prompt.
-    -   `user`: This is a template with a `user` or `Human` role attached to it. When using an OpenAI chat model (for example: gpt-3.5), this will be the `user` prompt and for other models it will assume the similar equivalent (`Human` in ANthropic models). Only one system prompt is allwed per agent. When using a text model, this will be converted to a regular prompt.
-    -   `assistant`: This is a template with an `assistant` role attached to it. When using an OpenAI chat model (for example: gpt-3.5), this will be the user prompt and for other models it will assume the similar equivalent (`Assistant` in Anthropic models). Only one system prompt is allwed per agent. When using a text model, this will be converted to a regular prompt.
+    -   `system`: This is a template with a `system` role attached to it. When using an OpenAI chat model (for example: gpt-3.5), this will be the system prompt, when using other models it will assume a `user` or `Human` role. Only one system prompt is allowed per agent. When using a text model, this will be converted to a regular prompt.
+    -   `user`: This is a template with a `user` or `Human` role attached to it. When using an OpenAI chat model (for example: gpt-3.5), this will be the `user` prompt and for other models it will assume the similar equivalent (`Human` in ANthropic models). When using a text model, this will be converted to a regular prompt.
+    -   `assistant`: This is a template with an `assistant` role attached to it. When using an OpenAI chat model (for example: gpt-3.5), this will be the user prompt and for other models it will assume the similar equivalent (`Assistant` in Anthropic models). When using a text model, this will be converted to a regular prompt.
 
 :::caution
 
@@ -147,10 +147,10 @@ The following is an example of a test:
     question: "What are the benefits of walking?"
 ```
 
-To run the test, use the command:
+To run the test (in debug mode, more info [here](../pdx-cli/02-test.md)), use the command:
 
 ```bash
-pdx test /path/demo_agent
+pdx test /path/demo_agent --debug
 ```
 
 ## Supported Language Models
@@ -160,7 +160,7 @@ The following is a list of the currently supported language models with their pr
 | Model `id`               | Provider                                                               | Environment Variable | Max Tokens | Recommended[^1] |
 | ------------------------ | ---------------------------------------------------------------------- | -------------------- | ---------- | --------------- |
 | gpt-4                    | [OpenAI](https://platform.openai.com/docs/models)                      | OPENAI_KEY           | 8,192      | Yes             |
-| gpt-4-32k                | [OpenAI](https://platform.openai.com/docs/models)                      | OPENAI_KEY           | 3,2768     | Tes             |
+| gpt-4-32k                | [OpenAI](https://platform.openai.com/docs/models)                      | OPENAI_KEY           | 3,2768     | Yes             |
 | gpt-3.5-turbo-16k        | [OpenAI](https://platform.openai.com/docs/models)                      | OPENAI_KEY           | 16,384     | Yes             |
 | gpt-3.5-turbo            | [OpenAI](https://platform.openai.com/docs/models)                      | OPENAI_KEY           | 4,096      | Yes             |
 | gpt-4-0613               | [OpenAI](https://platform.openai.com/docs/models)                      | OPENAI_KEY           | 8,192      |

@@ -27,7 +27,7 @@ In short:
 In detail:
 
 -   In production deployment. We are determined to keep it's dependencies to a minimum, and to make it easy to deploy and maintain along with your project dependencies.
--   Separating prompt templates from the application code, and saving them as text (hich is what they essentially are) by providing a folder structure. This mental model is akin to what FastAPI or Flask does for creating backend applications.
+-   Separating prompt templates from the application code, and saving them as text (which is what they essentially are) by providing a folder structure. This mental model is akin to what FastAPI or Flask does for creating backend applications.
 -   Version controlling the prompts along with their evaluation metrics, by tracking and recording the template rendering of the prompts with the respective field values, and the response from the Language Model.
 -   (Coming soon) Observability out-of-the-box. By tightly interating the lifecycle of prompt rendering with the input values and the response from the Language Model, PDX has the ability to record this process to help prompt engineers and developers debug.
 -   (Coming soon) Caching for lowering latency, by storing the versioned prompts, the template field values that were used and the response from the Language Model, we can effectively cache and reproduce the responses for the same input values. This method lowers the footprint for caching as only the input values need to be checked, as opposed to finding similarities to the entire prompt.

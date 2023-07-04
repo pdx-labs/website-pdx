@@ -32,9 +32,9 @@ You can then edit the files inside the folder with the info from this tutorial. 
 
 ## Step 1: Agent Configuration
 
-The first thing we'll need is to configure our agent. We'll do this by creating a `config.yml` file in the root of the agent folder.
+The first thing we'll need is to configure our agent. We'll do this by creating a `config.yaml` file in the root of the agent folder.
 
-```yaml title="project/sentiment_classification_agent/config.yml"
+```yaml title="project/sentiment_classification_agent/config.yaml"
 name: sentiment_classification_agent
 comment: An agent that classifies the sentiment of a sentence as
     positive or negative.
@@ -97,7 +97,9 @@ sentiment_classification_agent = Agent(agent_path)
 
 Here we've created an agent object called `sentiment_classification_agent` that we can use in our application.
 
-To use the agent, you can import the agent from the agent folder, and use it as follows:
+To use the agent, you can import the agent from the agent folder.
+
+As an example, at the root of your project if you have a `main.py` and want to call the agent, use it as follows:
 
 ```python title="project/main.py"
 from sentiment_classification_agent import sentiment_classification_agent

@@ -39,7 +39,7 @@ Let's create an example agent folder with a few temapltes, a config file and a t
     │   ├── 1_user.jinja
     │   └── 2_user.jinja
     └── tests
-    └── test_1.yaml
+        └── test_1.yaml
 ```
 
 The `config.yaml` file would look like this:

@@ -60,10 +60,13 @@ const config = {
                 },
                 blog: {
                     blogTitle: "PDX Blog",
+                    // blogSidebarCount: 0,
+                    // blogListComponent: require.resolve(
+                    //     "./src/components/BlogListPage.jsx"
+                    // ),
                     blogDescription:
                         "Blogs of PDX containing tutorials and insights.",
                     showReadingTime: true,
-                    editUrl: "https://github.com/pdx-labs/website-pdx",
                 },
                 theme: {
                     customCss: require.resolve("./src/css/custom.css"),
